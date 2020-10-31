@@ -1,0 +1,11 @@
+FROM node:alpine
+
+WORKDIR '/app'
+
+COPY package.json .
+RUN npm install
+
+# this is useless on dev, however necessary for prod Dockerfile
+COPY . . 
+
+CMD ["npm", "run", "start"]
