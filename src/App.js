@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          So  ... this  pushes updates asodasodkaosdk 
+          Dragon is sleeping, SSSSSHHHH!!!
         </p>
         <a
           className="App-link"
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React from a noob !!!
+          Gabi please ... learn some React and update these pages.
         </a>
       </header>
     </div>
